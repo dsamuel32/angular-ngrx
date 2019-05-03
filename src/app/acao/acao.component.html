@@ -1,0 +1,4 @@
+<p>
+    <button class="botao-menos botao" (click)="substract()" [disabled]="(total$ | async) === 0 ">-</button>
+    <button class="botao-mais botao" (click)="plus()">+</button>
+</p>

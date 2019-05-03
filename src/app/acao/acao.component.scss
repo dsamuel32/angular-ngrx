@@ -1,0 +1,22 @@
+.botao {
+    margin: 1%;
+    font-size: 18pt;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.botao-menos {
+    background-color: red;
+    width: 5%;
+    color: white;
+    border: none;
+}
+
+.botao-mais {
+    background-color: blue;
+    width: 5%;
+    color: white;
+    border: none;
+}
